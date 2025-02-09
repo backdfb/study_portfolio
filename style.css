@@ -1,0 +1,73 @@
+/* 기본 스타일 설정 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* 메인 섹션 스타일 */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 페이지 헤더 스타일 */
+.page-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-name {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.project-content {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* 페이지 콘텐츠 스타일 */
+.page-content {
+    margin-top: 20px;
+}
+
+#language-name {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 리스트 스타일 */
+ul {
+    list-style-type: none; /* 기본 리스트 스타일 제거 */
+    padding: 0;
+}
+
+li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #d1d1d1; /* 마우스 오버 시 배경색 변경 */
+}
+
+/* 링크 스타일 */
+a {
+    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+    color: #007BFF; /* 링크 색상 */
+}
+
+a:hover {
+    text-decoration: underline; /* 마우스 오버 시 밑줄 추가 */
+}
